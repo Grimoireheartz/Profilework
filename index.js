@@ -84,7 +84,7 @@ const scapeinfiniscroll = async (page, itemTargetCount) => {
     var Utilization = [];
     var City = [];
 
-    const items = await scapeinfiniscroll(page, 1139)
+    const items = await scapeinfiniscroll(page, text_total)
     while (countdata <= 1139) {
         countitemflesh++;
         for (let i = 1; i <= 20; i++) {
